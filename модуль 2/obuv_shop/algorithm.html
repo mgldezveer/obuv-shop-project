@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Блок-схема алгоритма разработки - ООО "Обувь"</title>
+    <style>
+        body { font-family: "Times New Roman", serif; margin: 40px; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .flowchart { display: flex; flex-direction: column; align-items: center; gap: 20px; }
+        .step { width: 300px; padding: 20px; border: 2px solid #000; text-align: center; border-radius: 10px; }
+        .start { background: #7FFF00; }
+        .process { background: #FFFFFF; border-left: 6px solid #00FA9A; }
+        .db { background: #FFFFFF; border-left: 6px solid #2E8B57; }
+        .end { background: #7FFF00; }
+        .arrow { font-size: 24px; color: #00FA9A; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>БЛОК-СХЕМА АЛГОРИТМА РАЗРАБОТКИ</h1>
+        <h2>Информационная система "ООО Обувь"</h2>
+        <p>Согласно ГОСТ 19.701-90</p>
+    </div>
+
+    <div class="flowchart">
+        <div class="step start">
+            <strong>1. НАЧАЛО ПРОЕКТА</strong>
+        </div>
+        <div class="arrow">▼</div>
+        
+        <div class="step process">
+            <strong>2. АНАЛИЗ ТРЕБОВАНИЙ</strong>
+            <br>Изучение технического задания
+            <br>Определение функциональных требований
+        </div>
+        <div class="arrow">▼</div>
+        
+        <div class="step process">
+            <strong>3. ПРОЕКТИРОВАНИЕ АРХИТЕКТУРЫ</strong>
+            <br>Выбор технологического стека
+            <br>Проектирование модулей системы
+        </div>
+        <div class="arrow">▼</div>
+        
+        <div class="step db">
+            <strong>4. РАЗРАБОТКА БАЗЫ ДАННЫХ</strong>
+            <br>Создание ER-диаграммы
+            <br>Проектирование таблиц и связей
+            <br>Реализация в СУБД MySQL
+        </div>
+        <div class="arrow">▼</div>
+        
+        <div class="step process">
+            <strong>5. СОЗДАНИЕ ПОЛЬЗОВАТЕЛЬСКОГО ИНТЕРФЕЙСА</strong>
+            <br>Разработка экранных форм
+            <br>Применение руководства по стилю
+            <br>Адаптивная верстка
+        </div>
+        <div class="arrow">▼</div>
+        
+        <div class="step process">
+            <strong>6. РЕАЛИЗАЦИЯ БИЗНЕС-ЛОГИКИ</strong>
+            <br>Программирование модулей
+            <br>Интеграция с базой данных
+            <br>Реализация ролевой модели
+        </div>
+        <div class="arrow">▼</div>
+        
+        <div class="step process">
+            <strong>7. ТЕСТИРОВАНИЕ СИСТЕМЫ</strong>
+            <br>Функциональное тестирование
+            <br>Проверка безопасности
+            <br>Тестирование пользовательского интерфейса
+        </div>
+        <div class="arrow">▼</div>
+        
+        <div class="step process">
+            <strong>8. РАЗВЕРТЫВАНИЕ</strong>
+            <br>Настройка серверной среды
+            <br>Размещение на хостинге
+            <br>Финальная проверка
+        </div>
+        <div class="arrow">▼</div>
+        
+        <div class="step end">
+            <strong>9. ЗАВЕРШЕНИЕ ПРОЕКТА</strong>
+        </div>
+    </div>
+</body>
+</html>
